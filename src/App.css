@@ -1,0 +1,239 @@
+.App {
+  text-align: center;
+}
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* .App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+} */
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.card {
+ 
+  margin-top: 12px;
+  margin-left: 15px;
+  width: 240px;
+  height:400px; 
+  position: relative;
+ display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1.5px solid  #C12E5A;
+  border-radius: 0.25rem;
+  
+}
+#container{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 80px;
+  margin-left: 8%;
+
+}
+#as:hover {
+  background-color: #C12E5A;
+  border-color: #C12E5A;
+}
+
+#as{
+  background-color: #C12E5A; 
+  border-color: #C12E5A; 
+
+}
+
+#as:focus {
+  box-shadow: 0 0 0 0.25rem rgba(193, 46, 90, 0.5);
+}
+.header {
+  background-color: #C12E5A; /* Background color of the header */
+  color: #C12E5A; /* Text color */
+  padding: 300px; /* Padding around the content */
+  height: 150px;
+}
+
+.logo {
+  width: 100px; /* Set the width of the logo */
+  height: auto; /* Maintain aspect ratio */
+}
+#myLogoSpace{
+  width: 100%;
+  color: #C12E5A;
+  height: 50px;
+}
+h5{
+  color: #C12E5A;
+  font-family: cursive;
+}
+p{
+  font-size: 20px;
+  text-align: center;
+  /* font-family: 'Josefin Sans', cursive; */
+font-family: cursive;
+color:gray
+  /* margin-top: 20px; */
+}
+#t{
+  font-size: 15px;
+ 
+}
+#logoImg{
+  height: 40px;
+  width: 40px;
+ margin-left: 700px;
+}
+#logoImg1{
+  height: 40px;
+  width: 40px;
+ margin-left: 100px;
+}
+#logoImg2{
+  height: 40px;
+  width: 40px;
+ margin-left: 100px;
+}
+th{
+  height: 40;
+  width: 80;
+}
+#cartImg{
+  height: 40px;
+  width: 40px;
+ margin-left: 50px;
+ 
+}
+#Button{
+ border: #C12E5A;
+ background-color: #C12E5A;
+ margin-left: 150px;
+ 
+}
+/* .card2{
+  
+  margin-top: 7px;
+  margin-left: 15px;
+  width: 240px;
+  height: 400px; 
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1.5px solid  #C12E5A;
+  
+  border-radius: 0.25rem;
+} */
+
+#input{
+  width: 60px;
+}
+h1{
+  color: #C12E5A;
+  margin-top: 100px;
+  font-family: cursive;
+}
+
+#imgForAbout{
+  width: 80%;
+  height: 400px;
+}
+#spaceOfNav{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 620px;
+
+
+}
+.link{
+  margin-left: 30px;
+  font-size: 30px;
+}
+h3{
+  color:#C12E5A;
+  font-family: cursive;
+
+}
+#back{
+  position: absolute;
+}
+#cartImg{
+  border: none;
+  background-color: #C12E5A;
+}
+.navButton{
+  border: none;
+  background-color: #C12E5A;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 100px;
+
+}
+/* .navFont{
+  color: white;
+  font-size: 4px;
+} */
+.table{
+  width: 50%;
+  margin-left: 25%;
+}
+#names{
+  background-color: #C12E5A;
+  color: white;
+}
+#plusminus{
+ display: flex;
+ margin-left: 60px; 
+}
+#button2{
+  background-color: white;
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#dollName{
+  font-size: 20px;
+}
+#myFooter{
+ text-align: center;
+ background-color: #C12E5A;
+ margin-top: 1600px;
+ width: 100%;
+ /* margin-bottom: 20px; */
+}
+th{
+  color: white;
+}
